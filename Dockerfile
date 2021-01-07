@@ -29,6 +29,3 @@ RUN apt-get update && apt-get install -y \
 RUN npm install -g resume-cli
 
 WORKDIR /data
-RUN npm install jsonresume-theme-even
-
-ENTRYPOINT ["resume", "export"]
